@@ -1,0 +1,9 @@
+[submodule "packages/hardhat_foundry/packages/hardhat/hello_foundry/lib/forge-std"]
+	path = packages/hardhat_foundry/packages/hardhat/hello_foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "packages/hardhat_foundry/packages/hardhat/lib/openzeppelin-foundry-upgrades"]
+	path = packages/hardhat_foundry/packages/hardhat/lib/openzeppelin-foundry-upgrades
+	url = https://github.com/OpenZeppelin/openzeppelin-foundry-upgrades
+[submodule "packages/hardhat_foundry/packages/hardhat/lib/openzeppelin-contracts-upgradeable"]
+	path = packages/hardhat_foundry/packages/hardhat/lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
