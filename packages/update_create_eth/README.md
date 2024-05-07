@@ -34,7 +34,7 @@ To get started with Scaffold-ETH 2, follow the steps below:
 1. Install dependencies if it was skipped in CLI:
 
 ```
-cd my-dapp-example
+cd update_create_eth
 yarn install
 ```
 
