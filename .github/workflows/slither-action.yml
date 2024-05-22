@@ -18,7 +18,7 @@ jobs:
         uses: crytic/slither-action@v0.3.0
         id: slither_hardhat_foundry
         with:
-          target: "./packages/hardhat_foundry/packages/hardhat" # Directory path of where the hardhat environment is located.
+          target: "./packages/hardhat_foundry" # Directory path of where the hardhat environment is located.
           fail-on: none
           slither-args: --checklist --markdown-root ${{ github.server_url }}/${{ github.repository }}/blob/${{ github.sha }}/
 
@@ -26,7 +26,7 @@ jobs:
         uses: crytic/slither-action@v0.3.0
         id: slither_mint_site
         with:
-          target: "./packages/mint_site/packages/hardhat" # Directory path of where the mint_site environment is located.
+          target: "./packages/mint_site" # Directory path of where the mint_site environment is located.
           fail-on: none
           slither-args: --checklist --markdown-root ${{ github.server_url }}/${{ github.repository }}/blob/${{ github.sha }}/
 
