@@ -22,6 +22,8 @@ A template where the base environment is created in Hardhat and the test code ca
 
 ### NFT Mint Site
 
+https://github.com/cardene777/Scaffold-ETH-Recipe/assets/61857866/b1309143-bf70-414d-9629-2ac08c3cbe70
+
 - [mint_site](https://github.com/cardene777/Scaffold-ETH-Recipe/tree/develop/packages/mint_site)
 
 Template for a website where the NFT can be minted.
