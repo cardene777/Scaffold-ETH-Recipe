@@ -49,12 +49,12 @@ __metadata:
   linkType: hard
 
 "@aws-sdk/types@npm:^3.1.0":
-  version: 3.567.0
-  resolution: "@aws-sdk/types@npm:3.567.0"
+  version: 3.577.0
+  resolution: "@aws-sdk/types@npm:3.577.0"
   dependencies:
-    "@smithy/types": ^2.12.0
+    "@smithy/types": ^3.0.0
     tslib: ^2.6.2
-  checksum: c1663de65d5b2277fd7691d4a8433b313c88addf45beba379a499afa56b7ad65bde50a3bb4b84173eba8aedae42f8f6dd444d3aa170bd279ec4e939803dd1d54
+  checksum: d10fe1d720adf3d8b17d5c23787611e336509569df7526efa96e8901100b9279a68e30a207eff60dc5cfa011abd68d47b81e40f2d4d1a9ddfd2d3653c20e1734
   languageName: node
   linkType: hard
 
@@ -1648,13 +1648,13 @@ __metadata:
   linkType: hard
 
 "@nomicfoundation/hardhat-foundry@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@nomicfoundation/hardhat-foundry@npm:1.1.1"
+  version: 1.1.2
+  resolution: "@nomicfoundation/hardhat-foundry@npm:1.1.2"
   dependencies:
     chalk: ^2.4.2
   peerDependencies:
     hardhat: ^2.17.2
-  checksum: 35d241638c1dbcfd14ed2006d4d7bee4e40d50bd866fcf4f02cb06084d5220182bcaf3f57ea5e99ee40335dd15a9392e106a29e9fd3cf74ab87e9215573ce787
+  checksum: 8711f4f383d5ad09e41dbb72af5106b049d11c1934efcdd48e9c44ac84a35e57115b98d4444480350ef9880dc82d3a24015b0d96bcb3d833ad788f435e286568
   languageName: node
   linkType: hard
 
@@ -1861,60 +1861,60 @@ __metadata:
   linkType: hard
 
 "@openzeppelin/defender-admin-client@npm:^1.52.0":
-  version: 1.54.1
-  resolution: "@openzeppelin/defender-admin-client@npm:1.54.1"
+  version: 1.54.4
+  resolution: "@openzeppelin/defender-admin-client@npm:1.54.4"
   dependencies:
-    "@openzeppelin/defender-base-client": 1.54.1
+    "@openzeppelin/defender-base-client": 1.54.4
     axios: ^1.4.0
     ethers: ^5.7.2
     lodash: ^4.17.19
     node-fetch: ^2.6.0
-  checksum: c247b38c9fdedc55d01d59b7db7fbe212b1ff5177950a0626010b8df3e298e3cf52e0d46d06cadc95c418f570547864c3d652e42804f4c845b3790de581e3d19
+  checksum: 96e25b4406de03f7b73b9f304f309394b565e35d257920c6f10805d9b22b3a7855879e104e2f5120192fad42829b94dab76cf4892e21bd95c0e21e52147aa207
   languageName: node
   linkType: hard
 
-"@openzeppelin/defender-base-client@npm:1.54.1, @openzeppelin/defender-base-client@npm:^1.52.0":
-  version: 1.54.1
-  resolution: "@openzeppelin/defender-base-client@npm:1.54.1"
+"@openzeppelin/defender-base-client@npm:1.54.4, @openzeppelin/defender-base-client@npm:^1.52.0":
+  version: 1.54.4
+  resolution: "@openzeppelin/defender-base-client@npm:1.54.4"
   dependencies:
     amazon-cognito-identity-js: ^6.0.1
     async-retry: ^1.3.3
     axios: ^1.4.0
     lodash: ^4.17.19
     node-fetch: ^2.6.0
-  checksum: bb44d305b3a7b20ce765bef4c8385c1187f9eca8f2647a99ad55111034da471709e946472ca5f641eb4bd26e1c7ebd19fb9832c29919c36d353a355c009ae98c
+  checksum: 2567231fbbe5946dd4503dffd12542607c152dc5c18a8d910b3b7e0b68b7211a0a732cf7738696234134cdb6ab59b9fae8d0cec8e04a7feff6e9864ce89de25c
   languageName: node
   linkType: hard
 
-"@openzeppelin/defender-sdk-base-client@npm:^1.10.0, @openzeppelin/defender-sdk-base-client@npm:^1.12.0":
-  version: 1.12.0
-  resolution: "@openzeppelin/defender-sdk-base-client@npm:1.12.0"
+"@openzeppelin/defender-sdk-base-client@npm:^1.10.0, @openzeppelin/defender-sdk-base-client@npm:^1.13.1":
+  version: 1.13.1
+  resolution: "@openzeppelin/defender-sdk-base-client@npm:1.13.1"
   dependencies:
     amazon-cognito-identity-js: ^6.3.6
     async-retry: ^1.3.3
-  checksum: bd0501fad9fa7830ad65a0b27c1fa2ce2b84b30fd218c3dda7347dfac76d7500ecba75defa100a2d77d775db8606dac56cecccf898593784f8868e69edd9d121
+  checksum: 7c106379b266b55ad41888502e511d5f8f9a9c004b114a4fa6fba740e306c6b547e20510a5cb1e862b6b348ff55acc1051520a8d0114a729c8757676943fee2c
   languageName: node
   linkType: hard
 
 "@openzeppelin/defender-sdk-deploy-client@npm:^1.10.0":
-  version: 1.12.0
-  resolution: "@openzeppelin/defender-sdk-deploy-client@npm:1.12.0"
+  version: 1.13.1
+  resolution: "@openzeppelin/defender-sdk-deploy-client@npm:1.13.1"
   dependencies:
-    "@openzeppelin/defender-sdk-base-client": ^1.12.0
+    "@openzeppelin/defender-sdk-base-client": ^1.13.1
     axios: ^1.6.7
     lodash: ^4.17.21
-  checksum: 2032c0967bb255a6ada456a84fdc1f90a8199fc57061f4a43df63830ab08ef08981674fb5e897afff20ad2c3f60051dda29d8939e79eba2a54c8302c5fc76869
+  checksum: 273b526c9502d84f6075a10fdc4606c55907247a68e5f4d6c8924dd3b246b86de711a801955fd89242d9b299eea545e01869cb03e4ca9ad977e11e732cbda043
   languageName: node
   linkType: hard
 
 "@openzeppelin/defender-sdk-network-client@npm:^1.10.0":
-  version: 1.12.0
-  resolution: "@openzeppelin/defender-sdk-network-client@npm:1.12.0"
+  version: 1.13.1
+  resolution: "@openzeppelin/defender-sdk-network-client@npm:1.13.1"
   dependencies:
-    "@openzeppelin/defender-sdk-base-client": ^1.12.0
+    "@openzeppelin/defender-sdk-base-client": ^1.13.1
     axios: ^1.6.7
     lodash: ^4.17.21
-  checksum: fdc151be291a28267315398f6f131ab71b4214bf0c706d4ac4b7904be6ce5647cfde994d39caad6d86c5a3361b0f0b354c88c7a905c20bf50562f75204b62ce0
+  checksum: 66f337504b8196635bb2a7c0142d20ffcc9e6dde54c55319a1cbc0392677dc04b55a5d0d3f95467480848f2db1f0adda37b72284c6ceda80d5f8292bcc7f7cb4
   languageName: node
   linkType: hard
 
@@ -2320,7 +2320,7 @@ __metadata:
     solidity-coverage: ^0.8.12
     ts-node: ^10.9.2
     typechain: ^8.3.2
-    typescript: ^5.4.5
+    typescript: ^5.0.5
   languageName: unknown
   linkType: soft
 
@@ -2459,12 +2459,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@smithy/types@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "@smithy/types@npm:2.12.0"
+"@smithy/types@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@smithy/types@npm:3.0.0"
   dependencies:
     tslib: ^2.6.2
-  checksum: 2dd93746624d87afbf51c22116fc69f82e95004b78cf681c4a283d908155c22a2b7a3afbd64a3aff7deefb6619276f186e212422ad200df3b42c32ef5330374e
+  checksum: 1c9c196c781aec0bed7c1519f91030ca4301f30f969394b099ccaa6ab0b47e55b211f54ae56a5a101e91d64899f147d49861e77c24fdc56117cf191a300e00ec
   languageName: node
   linkType: hard
 
@@ -4891,7 +4891,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.4.0, axios@npm:^1.6.7":
+"axios@npm:^1.4.0":
+  version: 1.7.2
+  resolution: "axios@npm:1.7.2"
+  dependencies:
+    follow-redirects: ^1.15.6
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: e457e2b0ab748504621f6fa6609074ac08c824bf0881592209dfa15098ece7e88495300e02cd22ba50b3468fd712fe687e629dcb03d6a3f6a51989727405aedf
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.6.7":
   version: 1.6.8
   resolution: "axios@npm:1.6.8"
   dependencies:
@@ -14065,7 +14076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.4.5":
+"typescript@npm:^5.0.5":
   version: 5.4.5
   resolution: "typescript@npm:5.4.5"
   bin:
@@ -14095,7 +14106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.4.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.0.5#~builtin<compat/typescript>":
   version: 5.4.5
   resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=a1c5e5"
   bin:
@@ -14213,9 +14224,9 @@ __metadata:
   linkType: hard
 
 "undici@npm:^6.11.1":
-  version: 6.15.0
-  resolution: "undici@npm:6.15.0"
-  checksum: de407f7f5640e9153db320bf571352f3caaf23baeded3015d850a50a4691647ef1afeea3b45f4325ec05b7c67bb039eb682c4639758aad17d2f133ee5e0149b8
+  version: 6.18.1
+  resolution: "undici@npm:6.18.1"
+  checksum: a317d8ae79b375d6fd24b7a5b194d5828194da41492435114349509f5e7c55ea888873e9c1c1525e0843d2b1684ad07af8ba86a98810d5de518d06a5dc5f3fb0
   languageName: node
   linkType: hard
 
