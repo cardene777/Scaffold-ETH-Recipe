@@ -1,0 +1,33 @@
+{
+  "manifest": "arweave/paths",
+  "version": "0.1.0",
+  "index": {
+    "path": "2.png"
+  },
+  "paths": {
+    "2.png": {
+      "id": "8j229h7sd6Z5SIREvHIXingowsyct6vaX85fz0-isAw"
+    },
+    "1.png": {
+      "id": "VucDpE5T6NxXs6cYEntp86nj-qXLkcDXXhxemocplHI"
+    },
+    "4.png": {
+      "id": "0Au-AUAtQ-PPPoTAMxtZUgWxuxFRSZZ3aRdKBeS_urk"
+    },
+    "3.png": {
+      "id": "iAQpeL-zOTPBvnyi8RwLRzS4JCXxD-u1ZZre5pOL63A"
+    },
+    "0.png": {
+      "id": "mwO-ntu_ftypyxLb9BF4rxfsMvNFZEIFCDd-u57lCd8"
+    },
+    "7.png": {
+      "id": "Ge7tkxw0Rej2vaK4h0zcVfP9rbe2wT_WVA9LvEfDJRY"
+    },
+    "5.png": {
+      "id": "npn-FYR6GMZoaPlZzn4osOUIvNfVE56g6gW4VZavg0s"
+    },
+    "6.png": {
+      "id": "TjOicBRc83jCm9JwHsThj5kttuiDWI8PalmRoOKZcxU"
+    }
+  }
+}
