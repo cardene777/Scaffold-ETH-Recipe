@@ -25,3 +25,17 @@ A template where the base environment is created in Hardhat and the test code ca
 - [mint_site](./packages/base/docs/mint.md)
 
 Template for a website where the NFT can be minted.
+
+## Recipe Site
+
+https://github.com/cardene777/Scaffold-ETH-Recipe/assets/61857866/e37882ee-81df-49a7-bb26-7c2ff93b532c
+
+## Tech
+
+- Next.js
+- Typescript
+- Solidity
+- Hardhat
+- Foundry
+- Openzeppelin
+- Thirdweb
