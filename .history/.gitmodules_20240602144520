@@ -10,9 +10,3 @@
 [submodule "packages/base/packages/hardhat/lib/openzeppelin-contracts"]
 	path = packages/base/packages/hardhat/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
-[submodule "packages/base/packages/hardhat/lib/dynamic-contracts"]
-	path = packages/base/packages/hardhat/lib/dynamic-contracts
-	url = https://github.com/thirdweb-dev/dynamic-contracts
-[submodule "packages/base/packages/hardhat/lib/contracts"]
-	path = packages/base/packages/hardhat/lib/contracts
-	url = https://github.com/thirdweb-dev/contracts
