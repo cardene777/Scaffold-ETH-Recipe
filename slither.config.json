@@ -1,0 +1,4 @@
+{
+  "filter_paths": "packages/hardhat_foundry/packages/hardhat/mocks,packages/hardhat_foundry/packages/hardhat/lib,packages/hardhat_foundry/packages/hardhat/node_modules, packages/mint_site/packages/hardhat/node_modules,packages/mint_site/packages/hardhat/lib",
+  "compile_force_framework": "hardhat"
+}

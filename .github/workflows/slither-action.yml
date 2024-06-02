@@ -1,0 +1,44 @@
+name: Slither Analysis action
+
+on:
+  push:
+    branches: [develop] # Branch name of the development environment
+  pull_request:
+    branches: [develop] # Branch name of the development environment
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run Slither on hardhat_foundry
+        uses: crytic/slither-action@v0.3.0
+        id: slither_hardhat_foundry
+        with:
+          target: "./packages/hardhat_foundry" # Directory path of where the hardhat environment is located.
+          fail-on: none
+          slither-args: --checklist --markdown-root ${{ github.server_url }}/${{ github.repository }}/blob/${{ github.sha }}/
+
+      - name: Run Slither on mint_site
+        uses: crytic/slither-action@v0.3.0
+        id: slither_mint_site
+        with:
+          target: "./packages/mint_site" # Directory path of where the mint_site environment is located.
+          fail-on: none
+          slither-args: --checklist --markdown-root ${{ github.server_url }}/${{ github.repository }}/blob/${{ github.sha }}/
+
+      # Setting up a report output in Markdown in pullrequ comments.
+      - name: Create/update checklist as PR comment
+        uses: actions/github-script@v6
+        if: github.event_name == 'pull_request'
+        env:
+          REPORT: ${{ steps.slither.outputs.stdout }}
+        with:
+          script: |
+            const script = require('.github/scripts/comment')
+            const header = '# Slither report'
+            const body = process.env.REPORT
+            await script({ github, context, header, body })
