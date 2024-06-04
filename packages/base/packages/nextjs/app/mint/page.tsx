@@ -31,8 +31,8 @@ const Home: NextPage = () => {
             className="btn btn-primary text-xl w-60"
             onClick={() =>
               writeContractAsync({
-                abi: deployedContracts?.["11155111"]?.ScaffoldRecipeNFT.abi,
-                address: deployedContracts?.["11155111"]?.ScaffoldRecipeNFT.address,
+                abi: deployedContracts?.["11155111"]?.MintNFT.abi,
+                address: deployedContracts?.["11155111"]?.MintNFT.address,
                 functionName: "safeMint",
                 args: [
                   connectedAddress || "",
