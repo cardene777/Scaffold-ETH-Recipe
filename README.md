@@ -28,6 +28,8 @@ Template for a website where the NFT can be minted.
 
 ## Recipe Site
 
+- [https://scaffold-eth-recipe.vercel.app/](https://scaffold-eth-recipe.vercel.app/)
+
 https://github.com/cardene777/Scaffold-ETH-Recipe/assets/61857866/e37882ee-81df-49a7-bb26-7c2ff93b532c
 
 ## Tech
